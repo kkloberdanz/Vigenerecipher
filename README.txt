@@ -5,6 +5,12 @@ Description  : Reads an input file (specified from command line)
                and creates an output file (specified from command line)
                with the encrypted text
 
+               The cipher takes in a key, and shifts the letters
+               of the plaintext according to the letters of the key
+               to generate the encrypted text
+
+               The key I used to test the program is: tesla
+
 File         : main.cpp
 
 Usage        : To encipher:

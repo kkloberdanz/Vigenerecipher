@@ -13,6 +13,8 @@
 #include <cstdlib>
 #include <cassert>
 
+#include "vigenerecipher.h"
+
 void printHelp(){
     std::cout << "Usage: To encipher:\n"
             "        ./vigenerecipher INPUTFILE OUTPUTFILE\n\n"
